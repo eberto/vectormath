@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VMath.Transpiler.Common\VMath.Transpiler.Common.csproj" />
+    <ProjectReference Include="..\VMath.Transpiler\VMath.Transpiler.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Program.vm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
