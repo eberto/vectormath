@@ -16,8 +16,8 @@ A = [1, 2, 3, 4]
 
 Vector operations:
 
-A + B = will add all the components of vector A to vector B, resulting in a new vector. Both must have the same length.
-A - B = will substract all the components of vector A to vector B, resulting in a new vector. Both must have the same length.
-A * B = will cross product both vectors, resulting in a new vector.
+- A + B = will add all the components of vector A to vector B, resulting in a new vector. Both must have the same length.
+- A - B = will substract all the components of vector A to vector B, resulting in a new vector. Both must have the same length.
+- A * B = will cross product both vectors, resulting in a new vector.
 
 Only LexicalAnalyzer is implemented for now.
